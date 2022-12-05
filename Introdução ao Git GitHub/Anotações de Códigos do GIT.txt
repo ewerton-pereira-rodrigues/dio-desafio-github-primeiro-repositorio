@@ -1,0 +1,64 @@
+# Códigos básicos aprendidos para consulta
+
+### Comandos no Git:
+
+* DIR - lista os diretórios (Windows);
+
+* LS - lista os diretórios (Linux);
+
+* CD - entrar numa pasta ou diretório;
+
+* CD.. - retorna a pasta anterior;
+
+* CLS - Clear (limpar);
+
+* TAB - Completa o texto;
+
+* MKDIR - Cria um Diretório (Pasta);
+
+* ECHO - Printa o texto escrito;
+
+  > ECHO também cria arquivos texto nos diretórios com a tag: ECHO > " texto e formato".
+
+* DEL - deletar (geralmente apenas arquivos de texto);
+
+* RMDIR - deletar o diretório;
+
+* Flags /S /Q;
+
+* Flags -a - Arquivos ocultos;
+
+* MV - Move os arquivos;
+
+  > MV "nome do arquivo" ./ "local"/.
+
+* 
+
+///////////////////////////////////////////////////////////////////////////////////
+
+## Iniciando o GIT
+
+Git INIT - iniciar um repositório;
+
+Git ADD (add, add *, add . ) - Adiciona os arquivos alterados;
+
+Git COMMINT - Cria o Screen dos arquivos após terminar;
+
+Git Status - Verifica o status do repositório e suas alterações; 
+
+Git CONFIG -- LIST - Lista de configurações;
+
+Git CONFIG --GLOBAL --UNSET USER.EMAIL - Zera o user email salvo;
+
+Git CONFIG --GLOBAL --UNSET USER.NAME - Zera o user name salvo;
+
+Q - Sai do local de configurações dos users;
+
+Git REMOTE ADD "NOME" "LINK" - Envia o repositório interno para externo;
+
+Git REMOTE -V - Verifica o status
+
+Git Push "nome" master - força o envio do repositório;
+
+Git Pull - puxar o repositório (por conflito de MERGE).
+
